@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAVJQK394t6kTEmGcwZ-STJJavfNbIRaEs',
-    appId: '1:712015217143:android:7cb1e213551fe7bcddaef2',
-    messagingSenderId: '712015217143',
-    projectId: 'inkflow-flutter',
-    storageBucket: 'inkflow-flutter.appspot.com',
+    apiKey: 'AIzaSyA70srvRz4fwXGhQckR3ezHjGcHR-gFq0A',
+    appId: '1:960535318591:android:68fc9dd1f217a81105688a',
+    messagingSenderId: '960535318591',
+    projectId: 'inkflow-flutter-58fa2',
+    storageBucket: 'inkflow-flutter-58fa2.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB1BthfqGEpWPdSHYYYJCPBNCMXCPhc3hQ',
-    appId: '1:712015217143:ios:41402583511bb570ddaef2',
-    messagingSenderId: '712015217143',
-    projectId: 'inkflow-flutter',
-    storageBucket: 'inkflow-flutter.appspot.com',
-    iosClientId: '712015217143-i4lrub0n67n0pp3blojn7vgpej9qcjif.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAQQiQRxzXY-OiKFMS-Pnr0RZcCxm6m1D0',
+    appId: '1:960535318591:ios:fb0119b3f1b0687c05688a',
+    messagingSenderId: '960535318591',
+    projectId: 'inkflow-flutter-58fa2',
+    storageBucket: 'inkflow-flutter-58fa2.appspot.com',
+    iosClientId: '960535318591-3a3d3cld64ejsa1ridld2r83q8372ksv.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterInkflowApp',
   );
 }

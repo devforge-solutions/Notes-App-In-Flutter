@@ -54,12 +54,19 @@ android {
         versionName flutterVersionName
         multiDexEnabled true
     }
-
+    signingConfigs {
+        release {
+            storeFile file('releasekey.keystore')
+            storePassword 'inkflow'
+            keyAlias 'myalias'
+            keyPassword 'inkflow'
+        }
+    }   
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
     }
 }

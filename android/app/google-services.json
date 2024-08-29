@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "712015217143",
-    "project_id": "inkflow-flutter",
-    "storage_bucket": "inkflow-flutter.appspot.com"
+    "project_number": "960535318591",
+    "project_id": "inkflow-flutter-58fa2",
+    "storage_bucket": "inkflow-flutter-58fa2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:712015217143:android:7cb1e213551fe7bcddaef2",
+        "mobilesdk_app_id": "1:960535318591:android:68fc9dd1f217a81105688a",
         "android_client_info": {
           "package_name": "com.example.flutter_inkflow_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "712015217143-s48pb3bv3fc60rju2rsbf9t2c7g0ie17.apps.googleusercontent.com",
+          "client_id": "960535318591-2qia0faiq3lm9uq2m1k18s9hn4no51ng.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAVJQK394t6kTEmGcwZ-STJJavfNbIRaEs"
+          "current_key": "AIzaSyA70srvRz4fwXGhQckR3ezHjGcHR-gFq0A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "712015217143-ousapdocsmc6nvrv3julrkhkrebg00mj.apps.googleusercontent.com",
+              "client_id": "960535318591-2qia0faiq3lm9uq2m1k18s9hn4no51ng.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

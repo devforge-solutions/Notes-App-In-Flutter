@@ -11,10 +11,8 @@ import 'package:flutter_inkflow_app/src/views/home.dart';
 import 'package:flutter_inkflow_app/src/views/widgets/custom_button.dart';
 import 'package:flutter_inkflow_app/src/views/widgets/custom_loading_button.dart';
 import 'package:flutter_inkflow_app/src/views/widgets/logo_container.dart';
-import 'package:flutter_inkflow_app/src/views/widgets/or_divider.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:rounded_loading_button/rounded_loading_button.dart';
-
 import 'register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -163,49 +161,49 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20.w),
-              child: Column(
-                children: [
-                  const OrDivider(),
-                  const SizedBox(
-                    height: 15,
-                  ),
-                  RoundedLoadingButton(
-                    valueColor: Theme.of(context).colorScheme.onPrimary,
-                    onPressed: () {
-                      loginWithGoogle();
-                    },
-                    controller: googleController,
-                    successColor: Theme.of(context).colorScheme.onPrimary,
-                    width: MediaQuery.of(context).size.width * 0.80,
-                    elevation: 0,
-                    borderRadius: 10.r,
-                    color: Colors.grey.withOpacity(0.20),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          padding: EdgeInsets.symmetric(vertical: 10.h)
-                              .copyWith(right: 10.w),
-                          child: Image.asset("assets/images/google.png"),
-                        ),
-                        Text(
-                          "Sign in with Google",
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleSmall!
-                              .copyWith(
-                                  fontSize: 16.sp,
-                                  fontWeight: FontWeight.normal),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            // Padding(
+            //   padding: EdgeInsets.symmetric(horizontal: 20.w),
+            //   child: Column(
+            //     children: [
+            //       const OrDivider(),
+            //       const SizedBox(
+            //         height: 15,
+            //       ),
+            //       RoundedLoadingButton(
+            //         valueColor: Theme.of(context).colorScheme.onPrimary,
+            //         onPressed: () {
+            //           loginWithGoogle();
+            //         },
+            //         controller: googleController,
+            //         successColor: Theme.of(context).colorScheme.onPrimary,
+            //         width: MediaQuery.of(context).size.width * 0.80,
+            //         elevation: 0,
+            //         borderRadius: 10.r,
+            //         color: Colors.grey.withOpacity(0.20),
+            //         child: Row(
+            //           crossAxisAlignment: CrossAxisAlignment.center,
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: [
+            //             Container(
+            //               padding: EdgeInsets.symmetric(vertical: 10.h)
+            //                   .copyWith(right: 10.w),
+            //               child: Image.asset("assets/images/google.png"),
+            //             ),
+            //             Text(
+            //               "Sign in with Google",
+            //               style: Theme.of(context)
+            //                   .textTheme
+            //                   .titleSmall!
+            //                   .copyWith(
+            //                       fontSize: 16.sp,
+            //                       fontWeight: FontWeight.normal),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
