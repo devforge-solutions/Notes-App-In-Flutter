@@ -1,16 +1,37 @@
+
+![SINEMA APP POST](https://github.com/zargham746/flutter_notes_app/assets/121686435/7a26761d-f2dd-44f7-af0c-f3d2c83b5d14)
+
 # flutter_inkflow_app
+This is a Flutter Notes App. Following are its main features.
+1. Themed UI for both light and Dark Modes
+2. Responsive UI for all sized of mobile devices.
+3. Notes in a List View and Grid View.
+4. Animated Switchers for switching between Notes.
+5. Google Sign In
+6. Create Account and Login Using Firebase Auth
+7. Firebase Storage for storing user Data
+8. Local DataBase (ISAR) for storing and fetching notes fast.
+9. Shared prefernces for storing user and other important data locally in App Storage.
+10. Check the Videos Previews at
+    1. For Light Mode   https://www.instagram.com/reel/CwjsMeFyK99/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
+    2. For Dark Mode    https://www.instagram.com/reel/Cwmea-JS5sm/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==
+       
 
-A new Flutter project.
 
-## Getting Started
+**INSTALLING**
+1. Clone Repository
 
-This project is a starting point for a Flutter application.
+2. Get All Dependencies
+3. Add firebase to your App.
+4. Enable Authentication and in authentication
+   1. Enable Google Sign In Providers
+   2. Enable Email/Password Provider
+5. Enable Cloud firestore and change the firestore rules to true.
+6. Add SHA fingerprints to your firebase.
+7. Run the App and enjoy.
+8. Don't forget to tag me in your videos.
+   1. Instagram     https://www.instagram.com/zargham_746/
+   2. Facebook      https://web.facebook.com/chzargham.abbas.16
+   3. Email me      czaaaa20@gmail.com
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Happy Coding!
